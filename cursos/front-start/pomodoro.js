@@ -11,7 +11,7 @@ playButton.addEventListener('click', play);
 pauseButton.addEventListener('click', pauseCounter);
 resetButton.addEventListener('click', resetCounter);
 
-updateDom();
+updateDom(); 
 
 function play(){
   isPlaying = !isPlaying;
